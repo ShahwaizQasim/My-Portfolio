@@ -116,3 +116,43 @@
    font-family: 'Poppins';
    font-weight:700;
 }
+
+/* hero-section */
+.c-f1{
+   height: auto;
+   margin-top: -80px;
+   padding-bottom: 80px;
+   background-image: url('./assets/img.jpg');
+}
+.hdg{
+   font-family: 'poppins' !important;
+   color:  #CE9160 !important;
+}
+.hdg1{
+   font-family: 'poppins' !important;
+   color:  #D7D4D1 !important;
+}
+.btn1{
+   height: 45px;
+   width: 180px;
+   background-color: transparent;
+   border: 2px solid #CE9160;
+   font-family: 'poppins';
+   color: #CE9160;
+   font-weight: 500;
+   outline: none;
+   transition: 0.8s;
+}
+.btn1:hover{
+   background-color: #CE9160;
+   color: #fff;
+   outline: none;
+   cursor: pointer;
+   font-weight: 500;
+   transform: scale(1.1);
+}
+.dis{
+   height: 400px;
+   width: 94%;
+   margin:auto;
+}
