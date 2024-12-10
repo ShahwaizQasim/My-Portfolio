@@ -9,21 +9,22 @@ function Navbar() {
     const handleToggle = () => {
         setIsOpen(!isOpen)
     }
-    console.log(isOpen);
-    
+
     return (
         <div className="container-fluid c-f pt-2 pb-2">
             <div className="container con">
-                <nav className="nav navbar navbar-expand-xxl navbar-light">
-                    <Link to="/" className="navbar-brand fontl">
+                <nav className=" navbar-light" style={{
+                    display: 'flex',
+                    justifyContent: 'space-between'
+                }}>
+                    <Link to="/" className="navbar-brand fontl pt-2">
                         ShahwaizQasim
                     </Link>
-                    <button onClick={handleToggle} className="navicon-btn">
+                    <button onClick={handleToggle} className="navicon-btn pt-2">
                         <FontAwesomeIcon icon={faBars} className='navicon' />
                     </button>
-                    <div className={`sidebar`} id="navi">
+                    <div className={`${isOpen ? 'sidebar2' : 'sidebar'}`} id="navi">
                         <Link
-                            to="javascript:void(0)"
                             onClick={handleToggle}
                             className='closebtn'
                         >

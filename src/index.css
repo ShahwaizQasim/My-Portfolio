@@ -40,6 +40,17 @@
 } 
 .sidebar{
    height: 100%;
+   width: 0;
+   position: fixed;
+   top: 0; 
+   right: 0;
+   z-index: 1;
+   background-color: #311E25;
+   overflow: hidden;
+   transition: 1s;
+}
+.sidebar2{
+   height: 100%;
    width: 100%;
    position: fixed;
    top: 0; 
@@ -64,7 +75,22 @@
    font-size: 26px;
    transition: transform 0.5s;
 }
+.sidebar2 a{
+   padding: 10px;
+   text-decoration: none;
+   text-align: center;
+   color: #CE9160;
+   display: block;
+   font-size: 26px;
+   transition: transform 0.5s;
+}
 .sidebar a:hover, .sidebar a:focus{
+   color: #E88C42;
+   text-shadow: 0px 0px 20px #E88C42;
+   transform: scale(1.1);
+   text-decoration: none;
+}
+.sidebar2 a:hover, .sidebar a:focus{
    color: #E88C42;
    text-shadow: 0px 0px 20px #E88C42;
    transform: scale(1.1);
@@ -77,9 +103,16 @@
    font-size: 36px;
    transition: 0.5s !important;
 }
+.sidebar2 .closebtn{
+   position: absolute;
+   top: 15px;
+   right: 40px;
+   font-size: 36px;
+   transition: 0.5s !important;
+}
 .fontl{
    font-size:26px !important;
    color:#CE9160 !important;
    font-family: 'Poppins';
-   font-weight: bold;
+   font-weight:700;
 }
