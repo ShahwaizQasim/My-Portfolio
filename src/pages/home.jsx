@@ -4,6 +4,7 @@ import About from '../components/about'
 import Skills from '../components/skills'
 import Service from '../components/service'
 import Projects from '../components/projects'
+import Contact from '../components/contact'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Skills />
       <Service />
       <Projects />
+      <Contact />
     </>
   )
 }
