@@ -206,3 +206,21 @@
   width: 85%;
   margin: auto;
 }
+
+/* skills section  */
+
+.c-f3{
+   height: auto;
+   background-color: #3B2930;
+   padding-bottom: 100px;
+}
+.hdg3{
+   font-family: 'bebas';
+   color:  #CE9160 !important;
+   padding-top: 70px;
+}
+.dis2{
+   height: auto;
+   width:85%;
+   margin: auto;
+}

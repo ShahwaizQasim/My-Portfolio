@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroSection from '../components/heroSection'
 import About from '../components/about'
+import Skills from '../components/skills'
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
     <>
       <HeroSection />
       <About />
+      <Skills />
     </>
   )
 }
