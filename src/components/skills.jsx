@@ -5,7 +5,10 @@ function Skills() {
         <div className="container-fluid c-f3">
             <div className="container">
                 <h1
-                    className="text-center hdg3 m-auto"
+                    className="text-center hdg2 m-auto"
+                    style={{
+                        paddingTop: '70px'
+                    }}
                     data-aos="fade-up"
                     data-aos-duration={1000}
                 >
