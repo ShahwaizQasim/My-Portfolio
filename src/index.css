@@ -1,158 +1,208 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 ::selection {
-   background-color: white;
-   color: #ff201e;
- }
+  background-color: white;
+  color: #ff201e;
+}
 
- /* navbar */
+/* navbar */
 
-.c-f{
+.c-f {
   height: 80px;
   position: sticky;
   top: 0;
   z-index: 10;
   scroll-behavior: smooth;
   transition: 0.8s;
-  background-color: #311E25;
-
+  background-color: #311e25;
 }
-.con{
-   height: 100%;
+.con {
+  height: 100%;
 }
-.navicon-btn{
-   background-color: transparent;
-   border: none;
-   outline: none;
+.navicon-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
-.navicon{
-   font-size: 34px;
-   color: #CE9160;
-   transition: 0.5s;
+.navicon {
+  font-size: 34px;
+  color: #ce9160;
+  transition: 0.5s;
 }
-.navicon:hover{
-   color: #E88C42;
-   cursor: pointer;
-   text-shadow: 0px 0px 20px #E88C42;
-} 
-.sidebar{
-   height: 100%;
-   width: 0;
-   position: fixed;
-   top: 0; 
-   right: 0;
-   z-index: 1;
-   background-color: #311E25;
-   overflow: hidden;
-   transition: 1s;
+.navicon:hover {
+  color: #e88c42;
+  cursor: pointer;
+  text-shadow: 0px 0px 20px #e88c42;
 }
-.sidebar2{
-   height: 100%;
-   width: 100%;
-   position: fixed;
-   top: 0; 
-   right: 0;
-   z-index: 1;
-   background-color: #311E25;
-   overflow: hidden;
-   transition: 1s;
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #311e25;
+  overflow: hidden;
+  transition: 1s;
 }
-.sidebar-content{
-   position: relative;
-   top: 25%;
-   width: 100%;
-   font-family: 'poppins';
+.sidebar2 {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #311e25;
+  overflow: hidden;
+  transition: 1s;
 }
-.sidebar a{
-   padding: 10px;
-   text-decoration: none;
-   text-align: center;
-   color: #CE9160;
-   display: block;
-   font-size: 26px;
-   transition: transform 0.5s;
+.sidebar-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  font-family: "poppins";
 }
-.sidebar2 a{
-   padding: 10px;
-   text-decoration: none;
-   text-align: center;
-   color: #CE9160;
-   display: block;
-   font-size: 26px;
-   transition: transform 0.5s;
+.sidebar a {
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #ce9160;
+  display: block;
+  font-size: 26px;
+  transition: transform 0.5s;
 }
-.sidebar a:hover, .sidebar a:focus{
-   color: #E88C42;
-   text-shadow: 0px 0px 20px #E88C42;
-   transform: scale(1.1);
-   text-decoration: none;
+.sidebar2 a {
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #ce9160;
+  display: block;
+  font-size: 26px;
+  transition: transform 0.5s;
 }
-.sidebar2 a:hover, .sidebar a:focus{
-   color: #E88C42;
-   text-shadow: 0px 0px 20px #E88C42;
-   transform: scale(1.1);
-   text-decoration: none;
+.sidebar a:hover,
+.sidebar a:focus {
+  color: #e88c42;
+  text-shadow: 0px 0px 20px #e88c42;
+  transform: scale(1.1);
+  text-decoration: none;
 }
-.sidebar .closebtn{
-   position: absolute;
-   top: 15px;
-   right: 40px;
-   font-size: 36px;
-   transition: 0.5s !important;
+.sidebar2 a:hover,
+.sidebar a:focus {
+  color: #e88c42;
+  text-shadow: 0px 0px 20px #e88c42;
+  transform: scale(1.1);
+  text-decoration: none;
 }
-.sidebar2 .closebtn{
-   position: absolute;
-   top: 15px;
-   right: 40px;
-   font-size: 36px;
-   transition: 0.5s !important;
+.sidebar .closebtn {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+  font-size: 36px;
+  transition: 0.5s !important;
 }
-.fontl{
-   font-size:26px !important;
-   color:#CE9160 !important;
-   font-family: 'Poppins';
-   font-weight:700;
+.sidebar2 .closebtn {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+  font-size: 36px;
+  transition: 0.5s !important;
+}
+.fontl {
+  font-size: 26px !important;
+  color: #ce9160 !important;
+  font-family: "Poppins";
+  font-weight: 700;
 }
 
 /* hero-section */
-.c-f1{
-   height: auto;
-   margin-top: -80px;
-   padding-bottom: 80px;
-   background-image: url('./assets/img.jpg');
+.c-f1 {
+  height: auto;
+  margin-top: -80px;
+  padding-bottom: 80px;
+  background-image: url("./assets/img.jpg");
 }
-.hdg{
-   font-family: 'poppins' !important;
-   color:  #CE9160 !important;
+.hdg {
+  font-family: "poppins" !important;
+  color: #ce9160 !important;
 }
-.hdg1{
-   font-family: 'poppins' !important;
-   color:  #D7D4D1 !important;
+.hdg1 {
+  font-family: "poppins" !important;
+  color: #d7d4d1 !important;
 }
-.btn1{
-   height: 45px;
-   width: 180px;
-   background-color: transparent;
-   border: 2px solid #CE9160;
-   font-family: 'poppins';
-   color: #CE9160;
-   font-weight: 500;
-   outline: none;
-   transition: 0.8s;
+.btn1 {
+  height: 45px;
+  width: 180px;
+  background-color: transparent;
+  border: 2px solid #ce9160;
+  font-family: "poppins";
+  color: #ce9160;
+  font-weight: 500;
+  outline: none;
+  transition: 0.8s;
 }
-.btn1:hover{
-   background-color: #CE9160;
-   color: #fff;
-   outline: none;
-   cursor: pointer;
-   font-weight: 500;
-   transform: scale(1.1);
+.btn1:hover {
+  background-color: #ce9160;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  transform: scale(1.1);
 }
-.dis{
-   height: 400px;
-   width: 94%;
-   margin:auto;
+.dis {
+  height: 400px;
+  width: 94%;
+  margin: auto;
+}
+
+/* About section  */
+
+.c-f2 {
+  height: auto;
+  background-color: #311e25;
+}
+.hdg2 {
+  font-family: "Lora";
+  color: #ce9160 !important;
+}
+.dis1 {
+  height: auto;
+  width: 95%;
+  margin: auto;
+}
+.btn2 {
+  height: 40px;
+  width: 160px;
+  background-color: transparent;
+  border: 2px solid #ce9160;
+  color: #ce9160;
+  font-family: "poppins";
+  font-weight: 500;
+  outline: none;
+  transition: 0.8s;
+}
+.btn2:hover {
+  background-color: #ce9160;
+  color: #fff;
+  border: 2px solid #ce9160;
+  cursor: pointer;
+  font-weight: 500;
+}
+.c-f3 {
+  height: auto;
+  background-color: #3b2930;
+  padding-bottom: 100px;
+}
+.hdg3 {
+  font-family: "bebas";
+  color: #ce9160 !important;
+  padding-top: 70px;
+}
+.dis2 {
+  height: auto;
+  width: 85%;
+  margin: auto;
 }

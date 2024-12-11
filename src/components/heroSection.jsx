@@ -1,4 +1,5 @@
 import React from 'react'
+import heroImg from '../assets/hero-img.png'
 
 function HeroSection() {
   return (
@@ -32,7 +33,7 @@ function HeroSection() {
         <div className="col-lg-6 col-md-12 col-sm-12  mt-5 mb-5">
           <div className="dis mt-5 mb-5 animate__animated animate__zoomIn">
             <img
-              src="../assets/hero-img.png"
+              src={heroImg}
               className="img-fluid"
               height="100%"
               width="100%"

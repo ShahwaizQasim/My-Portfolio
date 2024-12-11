@@ -1,11 +1,14 @@
 import React from 'react'
-import Navbar from '../components/navbar'
 import HeroSection from '../components/heroSection'
+import About from '../components/about'
 
 function Home() {
   return (
     // <Navbar />
-    <HeroSection />
+    <>
+      <HeroSection />
+      <About />
+    </>
   )
 }
 
