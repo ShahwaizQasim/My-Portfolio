@@ -29,7 +29,7 @@
   z-index: 10;
   scroll-behavior: smooth;
   transition: 0.8s;
-  background-color: #311e25;
+  background-color: transparent;
 }
 .con {
   height: 100%;
