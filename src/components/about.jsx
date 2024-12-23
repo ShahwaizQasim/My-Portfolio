@@ -1,5 +1,7 @@
 import React from 'react'
 import Programming from '../assets/Programming-amico.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 function About() {
     return (
@@ -15,15 +17,15 @@ function About() {
                             >
                                 <h1 className="hdg2 pt-5">About Me</h1>
                                 <span className="hdg1 mb-4 d-block">
-                                    I am Web Designer and Developer. I consider myself a responsible
-                                    an orderly person. These Is Correct Platform To Design Your
-                                    Website.
+                                    A passionate Full MERN Stack Developer with a strong foundation in building responsive
+                                    and scalable web applications. Skilled in MongoDB, Express.js, React.js, and Node.js, I focus on creating
+                                    efficient, user-friendly solutions while continuously expanding my knowledge of modern web technologies."
                                 </span>
                                 <span className="hdg2">Name : </span>
                                 <span className="hdg1 d-inline">&nbsp;Syed Shahwaiz Qasim</span>
                                 <br />
                                 <span className="hdg2 ">Profile : </span>
-                                <span className="hdg1 d-inline">Frontend Web Developer</span>
+                                <span className="hdg1 d-inline">Full Mern Stack Developer</span>
                                 <br />
                                 <span className="hdg2 ">Email : </span>
                                 <span className="hdg1 d-inline">
@@ -33,10 +35,10 @@ function About() {
                                 <span className="hdg2 ">Phone : </span>
                                 <span className="hdg1 d-inline">+92 3102166573</span>
                                 <br />
-                                <a href="Assets/Shahwaiz Resume.pdf" target="_blank">
+                                <a href="../CV/ShahwaizResume.pdf" target="_blank">
                                     <button className="btn2 mt-5">
                                         Download CV
-                                        <i className="fa-solid fa-arrow-right ml-2" />
+                                        <FontAwesomeIcon icon={faDownload} className='ps-1' />
                                     </button>
                                 </a>
                             </div>

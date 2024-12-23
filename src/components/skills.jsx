@@ -71,58 +71,7 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">Jquery</span>
-                            <span className="hdg1" style={{ float: "right" }}>
-                                60%
-                            </span>
-                            <div className="progress mt-2" style={{ height: 8 }}>
-                                <div
-                                    className="progress-bar"
-                                    style={{ width: "60%", backgroundColor: "#CE9160" }}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        className="col-lg-4 col-md-6 col-sm-12 col-12 mt-3 mb-5"
-                        style={{ height: 20 }}
-                    >
-                        <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">Wordpress</span>
-                            <span className="hdg1" style={{ float: "right" }}>
-                                65%
-                            </span>
-                            <div className="progress mt-2" style={{ height: 8 }}>
-                                <div
-                                    className="progress-bar"
-                                    style={{ width: "65%", backgroundColor: "#CE9160" }}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        className="col-lg-4 col-md-6 col-sm-12 col-12 mt-3 mb-5"
-                        style={{ height: 20 }}
-                    >
-                        <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">Javascript</span>
-                            <span className="hdg1" style={{ float: "right" }}>
-                                75%
-                            </span>
-                            <div className="progress mt-2" style={{ height: 8 }}>
-                                <div
-                                    className="progress-bar"
-                                    style={{ width: "75%", backgroundColor: "#CE9160" }}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        className="col-lg-4 col-md-6 col-sm-12 col-12 mt-3 mb-5"
-                        style={{ height: 20 }}
-                    >
-                        <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">MYSQL</span>
+                            <span className="hdg1 pt-5">Tailwind CSS</span>
                             <span className="hdg1" style={{ float: "right" }}>
                                 80%
                             </span>
@@ -139,9 +88,77 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">PHP</span>
+                            <span className="hdg1 pt-5">Javascript</span>
                             <span className="hdg1" style={{ float: "right" }}>
-                                65%
+                                85%
+                            </span>
+                            <div className="progress mt-2" style={{ height: 8 }}>
+                                <div
+                                    className="progress-bar"
+                                    style={{ width: "85%", backgroundColor: "#CE9160" }}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 mt-3 mb-5"
+                        style={{ height: 20 }}
+                    >
+                        <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
+                            <span className="hdg1 pt-5">React JS</span>
+                            <span className="hdg1" style={{ float: "right" }}>
+                                90%
+                            </span>
+                            <div className="progress mt-2" style={{ height: 8 }}>
+                                <div
+                                    className="progress-bar"
+                                    style={{ width: "90%", backgroundColor: "#CE9160" }}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 mt-3 mb-5"
+                        style={{ height: 20 }}
+                    >
+                        <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
+                            <span className="hdg1 pt-5">Jquery</span>
+                            <span className="hdg1" style={{ float: "right" }}>
+                                70%
+                            </span>
+                            <div className="progress mt-2" style={{ height: 8 }}>
+                                <div
+                                    className="progress-bar"
+                                    style={{ width: "70%", backgroundColor: "#CE9160" }}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 mt-3 mb-5"
+                        style={{ height: 20 }}
+                    >
+                        <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
+                            <span className="hdg1 pt-5">Next JS</span>
+                            <span className="hdg1" style={{ float: "right" }}>
+                                75%
+                            </span>
+                            <div className="progress mt-2" style={{ height: 8 }}>
+                                <div
+                                    className="progress-bar"
+                                    style={{ width: "75%", backgroundColor: "#CE9160" }}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 mt-3 mb-5"
+                        style={{ height: 20 }}
+                    >
+                        <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
+                            <span className="hdg1 pt-5">Node Js</span>
+                            <span className="hdg1" style={{ float: "right" }}>
+                                75%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
                                 <div
@@ -156,14 +173,48 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">Photoshop</span>
+                            <span className="hdg1 pt-5">Express Js</span>
                             <span className="hdg1" style={{ float: "right" }}>
-                                40%
+                                80%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
                                 <div
                                     className="progress-bar"
-                                    style={{ width: "40%", backgroundColor: "#CE9160" }}
+                                    style={{ width: "80%", backgroundColor: "#CE9160" }}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 mt-3 mb-5"
+                        style={{ height: 20 }}
+                    >
+                        <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
+                            <span className="hdg1 pt-5">Mongo_DB</span>
+                            <span className="hdg1" style={{ float: "right" }}>
+                                85%
+                            </span>
+                            <div className="progress mt-2" style={{ height: 8 }}>
+                                <div
+                                    className="progress-bar"
+                                    style={{ width: "85%", backgroundColor: "#CE9160" }}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 mt-3 mb-5"
+                        style={{ height: 20 }}
+                    >
+                        <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
+                            <span className="hdg1 pt-5">MYSQL</span>
+                            <span className="hdg1" style={{ float: "right" }}>
+                                60%
+                            </span>
+                            <div className="progress mt-2" style={{ height: 8 }}>
+                                <div
+                                    className="progress-bar"
+                                    style={{ width: "60%", backgroundColor: "#CE9160" }}
                                 />
                             </div>
                         </div>

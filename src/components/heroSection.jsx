@@ -38,9 +38,12 @@ function HeroSection() {
                 >
                   Hi, I am <span className="typedText"></span>
                 </h1>
-                <h5 className="mt-3 hdg1 animate__animated animate__fadeInUp animate__delay-2s">
-                  These Is Correct Platform To Design Your Website
-                </h5>
+                <p className="mt-3 hdg1 animate__animated animate__fadeInUp animate__delay-2s pt-2" style={{
+                  fontSize: '1.2rem',
+                  fontWeight: '400'
+                }}>
+                  Full MERN Stack Developer with a focus on crafting efficient and innovative web solutions.
+                </p>
                 <a href="#project">
                   <button
                     type="button"
@@ -53,13 +56,6 @@ function HeroSection() {
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12  mt-5 mb-5">
               <div className="dis mt-5 mb-5 animate__animated animate__zoomIn">
-                {/* <img
-                  src={myImg}
-                  className="img-fluid"
-                  height="100%"
-                  width="100%"
-                  alt=""
-                /> */}
                 <div className="myImg"></div>
               </div>
             </div>

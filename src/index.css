@@ -133,7 +133,6 @@
 .c-f1 {
   height: auto;
   margin-top: -80px;
-  padding-bottom: 80px;
   background-image: url("./assets/img.jpg");
 }
 .hdg {
@@ -152,21 +151,20 @@
 .btn1 {
   height: 45px;
   width: 180px;
-  background-color: transparent;
+  background-color: #ce9160;
   border: 2px solid #ce9160;
   font-family: "poppins";
-  color: #ce9160;
+  color: white;
   font-weight: 500;
   outline: none;
+  border-radius: 5px;
   transition: 0.8s;
 }
 .btn1:hover {
-  background-color: #ce9160;
-  color: #fff;
-  outline: none;
   cursor: pointer;
-  font-weight: 500;
-  transform: scale(1.1);
+}
+.btn1:active {
+  transform: scale(0.7);
 }
 .dis {
   height: 400px;
@@ -177,6 +175,7 @@
   overflow: hidden;
   margin-top: 20px;
   position: relative;
+  margin-bottom: 135px !important;
 }
 .myImg {
   height: 100%;
@@ -341,8 +340,8 @@ h1 {
 
 .flip-box {
   background-color: transparent;
-  height: 200px;
-  width: 330px;
+  height: 300px;
+  width: 90%;
   margin-top: 20px;
   margin-bottom: 30px;
   perspective: 1000px;

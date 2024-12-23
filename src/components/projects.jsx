@@ -18,7 +18,7 @@ function Projects() {
                         {/* Portfolio Gallery Grid */}
                         <div className="row">
                             <div
-                                className="column nature col-lg-4 col-md-12 col-sm-12"
+                                className="column nature col-lg-6 col-md-12 col-sm-12"
                                 data-aos="fade-up"
                                 data-aos-duration={1000}
                             >
@@ -28,7 +28,7 @@ function Projects() {
                                             className="flip-box-front"
                                             style={{ border: "1px solid #CE9160" }}
                                         >
-                                            <h4 className="hdg2 mt-4">Architect Website</h4>
+                                            <h4 className="hdg2 mt-4">GrandWriting Website</h4>
                                             <center>
                                                 <h6 className="hdg1 pt-2">
                                                     Architect Website Design By ShahwaizQasim.
@@ -50,7 +50,7 @@ function Projects() {
                                 </div>
                             </div>
                             <div
-                                className="column nature col-lg-4 col-md-12 col-sm-12"
+                                className="column nature col-lg-6 col-md-12 col-sm-12"
                                 data-aos="fade-up"
                                 data-aos-duration={1000}
                             >
@@ -85,7 +85,7 @@ function Projects() {
                                 </div>
                             </div>
                             <div
-                                className="column nature col-lg-4 col-md-12 col-sm-12"
+                                className="column nature col-lg-6 col-md-12 col-sm-12"
                                 data-aos="fade-up"
                                 data-aos-duration={1000}
                             >
@@ -120,7 +120,7 @@ function Projects() {
                                 </div>
                             </div>
                             <div
-                                className="column cars col-lg-4 col-md-12 col-sm-12"
+                                className="column cars col-lg-6 col-md-12 col-sm-12"
                                 data-aos="fade-up"
                                 data-aos-duration={1000}
                             >
@@ -156,7 +156,7 @@ function Projects() {
                                 </div>
                             </div>
                             <div
-                                className="column cars col-lg-4 col-md-12 col-sm-12"
+                                className="column cars col-lg-6 col-md-12 col-sm-12"
                                 data-aos="fade-up"
                                 data-aos-duration={1000}
                             >
@@ -194,7 +194,7 @@ function Projects() {
                                 </div>
                             </div>
                             <div
-                                className="column cars col-lg-4 col-md-12 col-sm-12"
+                                className="column cars col-lg-6 col-md-12 col-sm-12"
                                 data-aos="fade-up"
                                 data-aos-duration={1000}
                             >
