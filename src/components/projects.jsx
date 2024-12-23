@@ -301,6 +301,15 @@ function Projects() {
                         </div>
                     </center>
                     {/* END GRID */}
+                    {/* <button
+                    type="button"
+                    className="btn1 mt-3 text-center animate__animated animate__fadeInUp animate__delay-3s"
+                    style={{
+                        margin:"auto",
+                    }}
+                  >
+                    View Work
+                  </button> */}
                 </div>
             </div>
         </section>
