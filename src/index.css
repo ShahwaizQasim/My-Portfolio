@@ -10,15 +10,14 @@
   background-color: white;
   color: #ff201e;
 }
-::-webkit-scrollbar{
-   width: 10px;
-   background-color: #311e25 ;
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #311e25;
 }
-::-webkit-scrollbar-thumb{
-   border-radius: 5px;
-   background-color: #e88c42 ;
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #e88c42;
 }
-
 
 /* navbar */
 
@@ -145,6 +144,11 @@
   font-family: "poppins" !important;
   color: #d7d4d1 !important;
 }
+.typedText {
+  text-transform: capitalize;
+  color: #ce9160;
+  font-weight: 600;
+}
 .btn1 {
   height: 45px;
   width: 180px;
@@ -168,6 +172,21 @@
   height: 400px;
   width: 94%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: 20px;
+  position: relative;
+}
+.myImg {
+  height: 100%;
+  width: 75%;
+  background-image: url(./assets/myImg.jfif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  position: absolute;
+  right: 0;
 }
 
 /* About section  */
