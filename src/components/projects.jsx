@@ -32,7 +32,7 @@ function Projects() {
                                         >
                                             <h4 className="hdg2">Capital Shop</h4>
                                             <center>
-                                                <h6 className="mobile_Screen hdg1">
+                                                <h6 className="mobile_Screen hdg1 pt-2">
                                                     Capital Shop is a feature-rich e-commerce platform designed to deliver an engaging and user-friendly
                                                     shopping experience. <span style={{ fontWeight: '600px' }}>Built with React.js, Tailwind CSS, and Firebase </span>, it combines cutting-edge frontend
                                                     design with real-time database integration for efficient and scalable performance.
@@ -275,7 +275,7 @@ function Projects() {
                         <Link to={'https://github.com/ShahwaizQasim?tab=repositories'} target='_blank'>
                             <button
                                 type="button"
-                                className="btn4 mt-3 text-center animate__animated animate__fadeInUp animate__delay-3s" style={{
+                                className="btn4 mt-3 text-center" style={{
                                     borderRadius: '5px'
                                 }}
                             >

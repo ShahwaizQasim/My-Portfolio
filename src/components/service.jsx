@@ -22,8 +22,7 @@ function Service() {
                                     <img src={ScreenShot2} alt="icon-img" />
                                     <h5 className="hdg2 pt-1 pb-1">Web &amp; Mobile Design</h5>
                                     <p className="para pt-2 pe-4 ps-4 pb-3">
-                                        Sed eleifend sed nibh fringilla. Donec eu cursus sem vitae
-                                        tristique ante ibero
+                                        It focuses on delivering a user-centric experience by optimizing designs for smaller screens, touch interactions, and efficient navigation.
                                     </p>
                                 </center>
                             </div>
@@ -34,8 +33,7 @@ function Service() {
                                     <img src={ScreenShot} alt="icon-img" />
                                     <h5 className="text-center hdg2 pt-1 pb-1">Web Development</h5>
                                     <p className="para pt-2 pe-4 ps-4 pb-3">
-                                        Sed eleifend sed nibh nec fringilla. Donec eu cursus sem vitae
-                                        tristique ante ibero
+                                        From front-end designs to back-end functionality, we deliver seamless user experiences with high performance and security.
                                     </p>
                                 </center>
                             </div>
@@ -46,8 +44,7 @@ function Service() {
                                     <img src={ScreenShot1} alt="icon-img" />
                                     <h5 className="text-center hdg2 pt-1 pb-1">E-Commerce</h5>
                                     <p className="para pt-2 pb-3 pe-4 ps-4">
-                                        Sed eleifend sed nibh nec fringilla. Donec eu cursus sem vitae
-                                        tristique ante ibero
+                                        Whether it’s an e-commerce platform, portfolio, or business website, we ensure your site is responsive, optimized, and aligned with your goals.
                                     </p>
                                 </center>
                             </div>

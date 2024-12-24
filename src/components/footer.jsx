@@ -18,7 +18,7 @@ function Footer() {
                     >
                         <h3 className="hdg2 mt-5 mb-2 mobile_size2">ShahwaizQasim</h3>
                         <br />
-                        <p className="hdg1 smallPara">
+                        <p className="hdg12 smallPara">
                             I specialize in building responsive and interactive web applications using modern tools like React.js, Redux,
                             and Node.js. My goal is to create user-friendly, accessible, and visually appealing digital experiences
                         </p>

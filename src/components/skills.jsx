@@ -20,8 +20,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1">HTML5</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12">HTML5</span>
+                            <span className="hdg1" style={{ float: "right", paddingRight:0 }}>
                                 95%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
@@ -37,8 +37,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1">CSS 3</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12">CSS 3</span>
+                            <span className="hdg1" style={{ float: "right",paddingRight:0 }}>
                                 90%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
@@ -54,8 +54,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1">Bootstrap</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12">Bootstrap</span>
+                            <span className="hdg1" style={{ float: "right", paddingRight:0 }}>
                                 85%
                             </span>
                             <div className="progress mt-2 " style={{ height: 8 }}>
@@ -71,8 +71,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">Tailwind CSS</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12 pt-5">Tailwind CSS</span>
+                            <span className="hdg1" style={{ float: "right",paddingRight:0 }}>
                                 80%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
@@ -88,8 +88,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">Javascript</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12 pt-5">Javascript</span>
+                            <span className="hdg1" style={{ float: "right",paddingRight:0 }}>
                                 85%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
@@ -105,8 +105,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">React JS</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12 pt-5">React JS</span>
+                            <span className="hdg1" style={{ float: "right",paddingRight:0 }}>
                                 90%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
@@ -122,8 +122,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">Jquery</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12 pt-5">Jquery</span>
+                            <span className="hdg1" style={{ float: "right",paddingRight:0 }}>
                                 70%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
@@ -139,8 +139,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">Next JS</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12 pt-5">Next JS</span>
+                            <span className="hdg1" style={{ float: "right",paddingRight:0 }}>
                                 75%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
@@ -156,8 +156,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">Node Js</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12 pt-5">Node Js</span>
+                            <span className="hdg1" style={{ float: "right", paddingRight:0 }}>
                                 75%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
@@ -173,8 +173,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">Express Js</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12 pt-5">Express Js</span>
+                            <span className="hdg1" style={{ float: "right", paddingRight:0 }}>
                                 80%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
@@ -190,8 +190,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">Mongo_DB</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12 pt-5">Mongo_DB</span>
+                            <span className="hdg1" style={{ float: "right",paddingRight:0 }}>
                                 85%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>
@@ -207,8 +207,8 @@ function Skills() {
                         style={{ height: 20 }}
                     >
                         <div className="dis2" data-aos="fade-up" data-aos-duration={1000}>
-                            <span className="hdg1 pt-5">MYSQL</span>
-                            <span className="hdg1" style={{ float: "right" }}>
+                            <span className="hdg12 pt-5">MYSQL</span>
+                            <span className="hdg1" style={{ float: "right",paddingRight:0 }}>
                                 60%
                             </span>
                             <div className="progress mt-2" style={{ height: 8 }}>

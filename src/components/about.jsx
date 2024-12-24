@@ -16,7 +16,7 @@ function About() {
                                 data-aos-duration={2000}
                             >
                                 <h1 className="hdg2 pt-5 mobile_size">About Me</h1>
-                                <span className="hdg1 mb-4 d-block smallPara2">
+                                <span className="hdg12 mb-4 d-block smallPara2">
                                     A passionate Full MERN Stack Developer with a strong foundation in building responsive
                                     and scalable web applications. Skilled in MongoDB, Express.js, React.js, and Node.js, I focus on creating
                                     efficient, user-friendly solutions while continuously expanding my knowledge of modern web technologies."
