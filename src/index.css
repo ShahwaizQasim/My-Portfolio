@@ -142,11 +142,27 @@
 .hdg1 {
   font-family: "poppins" !important;
   color: #d7d4d1 !important;
+  padding-inline: 25px;
+  font-weight: 300;
 }
 .typedText {
   text-transform: capitalize;
   color: #ce9160;
   font-weight: 600;
+}
+.mobile_size {
+  font-weight: "normal";
+  font-size: "2.7rem";
+}
+.small_size {
+  padding-top: "90px";
+  font-size: "0.8rem";
+  text-transform: "uppercase";
+  font-weight: "600";
+}
+.smallPara {
+  font-size: "1.2rem";
+  font-weight: "400";
 }
 .btn1 {
   height: 45px;
@@ -364,7 +380,12 @@ h1 {
 .flip-box:hover .hdg2 {
   color: white;
 }
-
+.mobile_Screen {
+  font-weight: "300" !important;
+  line-height: "1.4rem" !important;
+  padding-inline: "25px" !important;
+  font-size: "0.9rem" !important;
+}
 .flip-box-front {
   position: absolute;
   width: 100%;
@@ -379,7 +400,6 @@ h1 {
   border-radius: 10px;
   color: #e88c42;
 }
-
 .hdg4 {
   font-family: "poppins";
   color: #d7d4d1 !important;
@@ -418,6 +438,9 @@ h1 {
   color: #e88c42 !important;
   margin-top: 10px;
 }
+.myForm {
+  margin-top: 50px;
+}
 .form1 {
   height: 40px;
   width: 95%;
@@ -435,6 +458,12 @@ h1 {
   font-size: 24px;
   color: #ce9160;
   margin-top: 10px;
+}
+.ic12 {
+  font-size: 24px;
+  color: #ce9160;
+  margin-top: 10px;
+  padding-left: 10px;
 }
 .hdg6 {
   font-family: "poppins";

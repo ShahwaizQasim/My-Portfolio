@@ -27,21 +27,13 @@ function HeroSection() {
           <div className="row pt-5">
             <div className="col-lg-6 col-md-12 col-sm-12 mt-5 mb-5">
               <div className="dis1">
-                <p className="hdg animate__animated animate__fadeInUp" style={{
-                  paddingTop: '90px', fontSize: '0.8rem', textTransform: "uppercase", fontWeight: '600'
-                }}>Welcome to my World</p>
+                <p className="hdg animate__animated animate__fadeInUp small_size">Welcome to my World</p>
                 <h1
-                  className="mt-3 hdg animate__animated animate__fadeInUp animate__delay-1s" style={{
-                    fontWeight: "normal",
-                    fontSize: "2.7rem"
-                  }}
+                  className="mt-3 hdg animate__animated animate__fadeInUp animate__delay-1s mobile_size"
                 >
                   Hi, I am <span className="typedText"></span>
                 </h1>
-                <p className="mt-3 hdg1 animate__animated animate__fadeInUp animate__delay-2s pt-2" style={{
-                  fontSize: '1.2rem',
-                  fontWeight: '400'
-                }}>
+                <p className="mt-3 hdg1 animate__animated animate__fadeInUp animate__delay-2s pt-2 smallPara">
                   Full MERN Stack Developer with a focus on crafting efficient and innovative web solutions.
                 </p>
                 <a href="#project">

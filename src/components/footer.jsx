@@ -16,9 +16,9 @@ function Footer() {
                         data-aos="fade-up"
                         data-aos-duration={1000}
                     >
-                        <h3 className="hdg2 mt-5 mb-2">ShahwaizQasim</h3>
+                        <h3 className="hdg2 mt-5 mb-2 mobile_size2">ShahwaizQasim</h3>
                         <br />
-                        <p className="hdg1">
+                        <p className="hdg1 smallPara">
                             I specialize in building responsive and interactive web applications using modern tools like React.js, Redux,
                             and Node.js. My goal is to create user-friendly, accessible, and visually appealing digital experiences
                         </p>
@@ -26,13 +26,13 @@ function Footer() {
                             <FontAwesomeIcon icon={faInstagram} className='ic1' />
                         </Link>
                         <Link href="https://wa.me/03102166573?text=Hello%20there!" target='_blank'>
-                            <FontAwesomeIcon icon={faWhatsapp} className='ic1 ps-3' />
+                            <FontAwesomeIcon icon={faWhatsapp} className='ic12' />
                         </Link>
                         <Link href="https://www.facebook.com/syed.shahwaiz.129" target='_blank'>
-                            <FontAwesomeIcon icon={faFacebook} className='ic1 ps-3' />
+                            <FontAwesomeIcon icon={faFacebook} className='ic12' />
                         </Link>
                         <Link href="https://www.linkedin.com/in/syed-shahwaiz-qasim-01467b26b/" target='_blank'>
-                            <FontAwesomeIcon icon={faLinkedin} className='ic1 ps-3' />
+                            <FontAwesomeIcon icon={faLinkedin} className='ic12' />
                         </Link>
                     </div>
                     <div

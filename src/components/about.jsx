@@ -15,25 +15,25 @@ function About() {
                                 data-aos="fade-up"
                                 data-aos-duration={2000}
                             >
-                                <h1 className="hdg2 pt-5">About Me</h1>
-                                <span className="hdg1 mb-4 d-block">
+                                <h1 className="hdg2 pt-5 mobile_size">About Me</h1>
+                                <span className="hdg1 mb-4 d-block smallPara2">
                                     A passionate Full MERN Stack Developer with a strong foundation in building responsive
                                     and scalable web applications. Skilled in MongoDB, Express.js, React.js, and Node.js, I focus on creating
                                     efficient, user-friendly solutions while continuously expanding my knowledge of modern web technologies."
                                 </span>
-                                <span className="hdg2">Name : </span>
-                                <span className="hdg1 d-inline">&nbsp;Syed Shahwaiz Qasim</span>
+                                <span className="hdg2 smallPara2">Name : </span>
+                                <span className="hdg1 d-inline smallPara2">&nbsp;Syed Shahwaiz Qasim</span>
                                 <br />
-                                <span className="hdg2 ">Profile : </span>
-                                <span className="hdg1 d-inline">Full Mern Stack Developer</span>
+                                <span className="hdg2 smallPara2 ">Profile : </span>
+                                <span className="hdg1 d-inline smallPara2">Full Mern Stack Developer</span>
                                 <br />
-                                <span className="hdg2 ">Email : </span>
-                                <span className="hdg1 d-inline">
+                                <span className="hdg2  smallPara2 ">Email : </span>
+                                <span className="hdg1 d-inline smallPara2">
                                     &nbsp;syedshahwaiz32@gmail.com
                                 </span>
                                 <br />
-                                <span className="hdg2 ">Phone : </span>
-                                <span className="hdg1 d-inline">+92 3102166573</span>
+                                <span className="hdg2 smallPara2 ">Phone : </span>
+                                <span className="hdg1 d-inline smallPara2">+92 3102166573</span>
                                 <br />
                                 <a href="../CV/ShahwaizResume.pdf" target="_blank">
                                     <button className="btn2 mt-5">

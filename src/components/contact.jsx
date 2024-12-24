@@ -36,7 +36,7 @@ function Contact() {
             <div className="container-fluid c-f4">
                 <div className="container pt-5">
                     <h1
-                        className="text-center hdg2 pt-4 text-xl"
+                        className="text-center hdg2 pt-4 text-xl mobile_size2"
                         data-aos="fade-up"
                         data-aos-duration={1000}
                     >
@@ -44,12 +44,12 @@ function Contact() {
                     </h1>
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-sm-12 mt-5">
-                            <form ref={form} onSubmit={sendEmail}>
+                            <form ref={form} onSubmit={sendEmail} className='myForm'>
                                 <center>
                                     <input
                                         type="text"
                                         placeholder="Full Name"
-                                        className="form1 mb-3 mt-5"
+                                        className="form1 mb-3"
                                         name='to_name'
                                         data-aos="fade-up"
                                         data-aos-duration={1000}
@@ -59,7 +59,7 @@ function Contact() {
                                         type="email"
                                         placeholder="Email:"
                                         name='from_email'
-                                        className="form1 mb-3"
+                                        className="form1 mt-2 mb-3"
                                         data-aos="fade-up"
                                         data-aos-duration={1000}
                                         required=""
@@ -67,7 +67,7 @@ function Contact() {
                                     <textarea
                                         type="text"
                                         placeholder="Enter Message"
-                                        className="form1 p-2"
+                                        className="form1 mt-2 p-2"
                                         name='message'
                                         style={{ height: 150 }}
                                         data-aos="fade-up"
@@ -86,7 +86,7 @@ function Contact() {
                                 </center>
                             </form>
                         </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 mt-4">
+                        <div className="col-lg-6 col-md-12 col-sm-12 mt-4 mobile_top">
                             <div className="row">
                                 <div className="col-lg-6 col-md-12 col-sm-12">
                                     <div className="dis4" data-aos="fade-up" data-aos-duration={1000}>

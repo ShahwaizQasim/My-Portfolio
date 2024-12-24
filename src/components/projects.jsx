@@ -11,7 +11,7 @@ function Projects() {
             <div className="container-fluid c-f5 pt-5">
                 <div className="container">
                     <h2
-                        className="hdg2 text-center mb-5"
+                        className="hdg2 text-center mb-5 mobile_size2"
                         data-aos="fade-up"
                         data-aos-duration={1000}
                     >
@@ -32,12 +32,7 @@ function Projects() {
                                         >
                                             <h4 className="hdg2">Capital Shop</h4>
                                             <center>
-                                                <h6 className="hdg1 pt-2" style={{
-                                                    fontWeight: '300',
-                                                    lineHeight: '1.4rem',
-                                                    paddingInline: "25px",
-                                                    fontSize: '0.9rem'
-                                                }}>
+                                                <h6 className="mobile_Screen hdg1">
                                                     Capital Shop is a feature-rich e-commerce platform designed to deliver an engaging and user-friendly
                                                     shopping experience. <span style={{ fontWeight: '600px' }}>Built with React.js, Tailwind CSS, and Firebase </span>, it combines cutting-edge frontend
                                                     design with real-time database integration for efficient and scalable performance.
@@ -78,12 +73,7 @@ function Projects() {
                                         >
                                             <h4 className="hdg2">GrandWriting Website</h4>
                                             <center>
-                                                <h6 className="hdg1 pt-2" style={{
-                                                    fontWeight: '300',
-                                                    paddingInline: "30px",
-                                                    lineHeight: '1.4rem',
-                                                    fontSize: '0.9rem'
-                                                }}>
+                                                <h6 className="hdg1 pt-2 mobile_Screen">
                                                     A responsive and interactive platform designed to simplify grant application processes.
                                                     <span style={{ fontWeight: '600px' }}> Built using HTML, CSS, and JavaScript </span>, the website
                                                     features an intuitive interface for creating, managing, and tracking grant proposals efficiently
@@ -126,12 +116,7 @@ function Projects() {
                                         >
                                             <h4 className="hdg2">CLI Github Clone</h4>
                                             <center>
-                                                <h6 className="hdg1 pt-2" style={{
-                                                    fontWeight: '300',
-                                                    lineHeight: '1.4rem',
-                                                    paddingInline: "35px",
-                                                    fontSize: '0.9rem'
-                                                }}>
+                                                <h6 className="hdg1 pt-2 mobile_Screen">
                                                     A responsive GitHub CLI website clone, developed to enhance skills in frontend design and implementation.
                                                     This project demonstrates attention to detail and proficiency in recreating modern web interfaces.
                                                 </h6>
@@ -171,12 +156,7 @@ function Projects() {
                                         >
                                             <h4 className="hdg2">Quiz App</h4>
                                             <center>
-                                                <h6 className="hdg1 pt-2" style={{
-                                                    fontWeight: '300',
-                                                    lineHeight: '1.4rem',
-                                                    paddingInline: "50px",
-                                                    fontSize: '0.9rem'
-                                                }}>
+                                                <h6 className="hdg1 pt-2 mobile_Screen">
                                                     A modern Quiz App built with <span style={{ fontWeight: '600px' }}>React.js and Tailwind CSS </span>, featuring a responsive design
                                                     and real-time score tracking. This project highlights the ability to create engaging and
                                                     user-friendly web applications
@@ -218,12 +198,7 @@ function Projects() {
                                         >
                                             <h4 className="hdg2">Quiz App</h4>
                                             <center>
-                                                <h6 className="hdg1 pt-2" style={{
-                                                    fontWeight: '300',
-                                                    lineHeight: '1.4rem',
-                                                    paddingInline: "35px",
-                                                    fontSize: '0.9rem'
-                                                }}>
+                                                <h6 className="hdg1 pt-2 mobile_Screen">
                                                     A responsive weather application designed to fetch and display real-time weather data.
                                                     <span style={{ fontWeight: '600px' }}> Built with JavaScript, HTML, and CSS </span>, it showcases efficient API integration and a user-friendly
                                                     interface.
@@ -265,12 +240,7 @@ function Projects() {
                                         >
                                             <h4 className="hdg2">NEOH Website Clone</h4>
                                             <center>
-                                                <h6 className="hdg1 pt-2" style={{
-                                                    fontWeight: '300',
-                                                    lineHeight: '1.4rem',
-                                                    paddingInline: "35px",
-                                                    fontSize: '0.9rem'
-                                                }}>
+                                                <h6 className="hdg1 pt-2 mobile_Screen">
                                                     "A responsive NEOH Website clone, developed to enhance skills in frontend design and implementation.
                                                     This project demonstrates attention to detail and proficiency in recreating modern web interfaces
                                                 </h6>

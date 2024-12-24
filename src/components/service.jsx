@@ -9,7 +9,7 @@ function Service() {
             <div className="container-fluid c-f4">
                 <div className="container pt-5">
                     <h1
-                        className="text-center hdg2 pt-4"
+                        className="text-center hdg2 pt-4 mobile_size2"
                         data-aos="fade-up"
                         data-aos-duration={1000}
                     >

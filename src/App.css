@@ -1,0 +1,133 @@
+@media screen and (max-width: 1024px) {
+    .mobile_Screen {
+        font-size: 0.9  rem;
+        padding-inline: 10px;
+        line-height: "1.4rem";
+        font-weight: 300;
+      }
+}
+
+@media screen and (max-width: 760px) {
+  .c-f1 {
+    display: flex;
+    justify-content: center;
+  }
+  .myImg {
+    width: 95%;
+  }
+  .mobile_Screen {
+    font-size: 0.8rem;
+    padding-inline: 10px;
+    line-height: "1.4rem";
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .small_size {
+    font-size: 0.8rem;
+    padding-top: 90px;
+  }
+  .mobile_size {
+    font-size: 2.2rem;
+  }
+  .smallPara {
+    font-size: 0.9rem;
+    padding-right: 20px;
+  }
+  .smallPara2 {
+    font-size: 0.9rem;
+  }
+  .flip-box {
+    height: 400px;
+  }
+  .mobile_Screen {
+    font-size: 0.8rem;
+    padding-inline: 10px;
+    line-height: "1.4rem";
+    font-weight: 300;
+  }
+  .btn4 {
+    height: 40px;
+    width: 125px;
+    font-size: 0.8rem;
+  }
+  .myForm {
+    margin-top: -20px;
+  }
+  .mobile_top {
+    margin-top: 100px !important;
+  }
+  .btn1 {
+    height: 40px;
+    width: 160px;
+    font-size: 0.9rem;
+  }
+  .mobile_size2 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .btn1 {
+    height: 40px;
+    width: 160px;
+    font-size: 0.9rem;
+  }
+  .mobile_Screen {
+    font-size: 0.8rem;
+    padding-inline: 10px;
+    line-height: "1.4rem";
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 320px) {
+  .myImg {
+    width: 100%;
+  }
+  .small_size {
+    font-size: 0.7rem;
+    padding-top: 90px;
+  }
+  .mobile_size {
+    font-size: 2rem;
+  }
+  .smallPara {
+    font-size: 0.8rem;
+    padding-right: 20px;
+  }
+  .smallPara2 {
+    font-size: 0.8rem;
+  }
+  .flip-box {
+    height: 400px;
+  }
+  .mobile_Screen {
+    font-size: 0.8rem;
+    padding-inline: 10px;
+    line-height: "1.4rem";
+    font-weight: 300;
+  }
+  .btn4 {
+    height: 30px;
+    width: 90px;
+    font-size: 0.6rem;
+  }
+  .hdg2 {
+    font-size: 1rem;
+  }
+  .mobile_size2 {
+    font-size: 1.6rem;
+  }
+  .ic1 {
+    font-size: 18px;
+  }
+  .ic12 {
+    font-size: 18px;
+  }
+  .fontl {
+    font-size: 1.4rem !important;
+  }
+  .navicon {
+    font-size: 1.6rem !important;
+  }
+}

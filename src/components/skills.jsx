@@ -5,7 +5,7 @@ function Skills() {
         <div className="container-fluid c-f3">
             <div className="container">
                 <h1
-                    className="text-center hdg2 m-auto"
+                    className="text-center hdg2 m-auto mobile_size2"
                     style={{
                         paddingTop: '70px'
                     }}
