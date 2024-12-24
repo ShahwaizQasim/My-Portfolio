@@ -9,7 +9,7 @@ function Projects() {
     return (
         <section className="project" id="project">
             <div className="container-fluid c-f5 pt-5">
-                <div className="container pt-5">
+                <div className="container">
                     <h2
                         className="hdg2 text-center mb-5"
                         data-aos="fade-up"
@@ -301,15 +301,18 @@ function Projects() {
                         </div>
                     </center>
                     {/* END GRID */}
-                    {/* <button
-                    type="button"
-                    className="btn1 mt-3 text-center animate__animated animate__fadeInUp animate__delay-3s"
-                    style={{
-                        margin:"auto",
-                    }}
-                  >
-                    View Work
-                  </button> */}
+                    <center>
+                        <Link to={'https://github.com/ShahwaizQasim?tab=repositories'} target='_blank'>
+                            <button
+                                type="button"
+                                className="btn4 mt-3 text-center animate__animated animate__fadeInUp animate__delay-3s" style={{
+                                    borderRadius: '5px'
+                                }}
+                            >
+                                See All Projects
+                            </button>
+                        </Link>
+                    </center>
                 </div>
             </div>
         </section>

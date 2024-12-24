@@ -1,8 +1,14 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faWhatsapp, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router'
+import { Link as ScrollLink } from 'react-scroll'; // Import react-scroll
 
 function Footer() {
     return (
-        <div className="container-fluid c-f5 pt-5 pb-5">
+        <div className="container-fluid c-f5 pt-5 pb-5" style={{
+            borderTop: '1px solid #ce9160'
+        }}>
             <div className="container">
                 <div className="row">
                     <div
@@ -13,21 +19,21 @@ function Footer() {
                         <h3 className="hdg2 mt-5 mb-2">ShahwaizQasim</h3>
                         <br />
                         <p className="hdg1">
-                            I am Web Designer and Developer. I consider myself a responsible an
-                            orderly person. These Is Correct Platform To Design Your Website.
+                            I specialize in building responsive and interactive web applications using modern tools like React.js, Redux,
+                            and Node.js. My goal is to create user-friendly, accessible, and visually appealing digital experiences
                         </p>
-                        <a href="https://www.instagram.com/">
-                            <i className="fa-brands fa-instagram ic1" />
-                        </a>
-                        <a href="https://web.whatsapp.com/">
-                            <i className="fa-brands fa-whatsapp ic1 pl-2" />
-                        </a>
-                        <a href="https://www.facebook.com/">
-                            <i className="fa-brands fa-facebook ic1 pl-2" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/syed-shahwaiz-qasim-01467b26b/">
-                            <i className="fa-brands fa-linkedin ic1 pl-2" />
-                        </a>
+                        <Link to="https://www.instagram.com/syedshahwaizqasim/" target='_blank'>
+                            <FontAwesomeIcon icon={faInstagram} className='ic1' />
+                        </Link>
+                        <Link href="https://wa.me/03102166573?text=Hello%20there!" target='_blank'>
+                            <FontAwesomeIcon icon={faWhatsapp} className='ic1 ps-3' />
+                        </Link>
+                        <Link href="https://www.facebook.com/syed.shahwaiz.129" target='_blank'>
+                            <FontAwesomeIcon icon={faFacebook} className='ic1 ps-3' />
+                        </Link>
+                        <Link href="https://www.linkedin.com/in/syed-shahwaiz-qasim-01467b26b/" target='_blank'>
+                            <FontAwesomeIcon icon={faLinkedin} className='ic1 ps-3' />
+                        </Link>
                     </div>
                     <div
                         className="col-lg-3 col-md-6 col-sm-12 mt-2 mb-5"
@@ -37,29 +43,69 @@ function Footer() {
                         <h3 className="hdg2 mt-5 mb-4">Useful Links</h3>
                         <ul>
                             <li className="hdg2 mt-2">
-                                <a href="index.html" className="hdg6">
+                                <ScrollLink
+                                    to="hero" // ID of the section
+                                    smooth={true}
+                                    duration={500}
+                                    className='hdg6'
+                                    style={{
+                                        cursor: 'pointer'
+                                    }}
+                                >
                                     Home
-                                </a>
+                                </ScrollLink>
                             </li>
                             <li className="hdg2 mt-2">
-                                <a href="About.html" className="hdg6">
+                                <ScrollLink
+                                    to="about" // ID of the section
+                                    smooth={true}
+                                    duration={500}
+                                    className='hdg6'
+                                    style={{
+                                        cursor: 'pointer'
+                                    }}
+                                >
                                     About
-                                </a>
+                                </ScrollLink>
                             </li>
                             <li className="hdg2 mt-2">
-                                <a href="Service.html" className="hdg6">
+                                <ScrollLink
+                                    to="service" // ID of the section
+                                    smooth={true}
+                                    duration={500}
+                                    className='hdg6'
+                                    style={{
+                                        cursor: 'pointer'
+                                    }}
+                                >
                                     Services
-                                </a>
+                                </ScrollLink>
                             </li>
                             <li className="hdg2 mt-2">
-                                <a href="project.html" className="hdg6">
+                                <ScrollLink
+                                    to="project" // ID of the section
+                                    smooth={true}
+                                    duration={500}
+                                    className='hdg6'
+                                    style={{
+                                        cursor: 'pointer'
+                                    }}
+                                >
                                     Projects
-                                </a>
+                                </ScrollLink>
                             </li>
                             <li className="hdg2 mt-2">
-                                <a href="contact.html" className="hdg6">
+                                <ScrollLink
+                                    to="contact" // ID of the section
+                                    smooth={true}
+                                    duration={500}
+                                    className='hdg6'
+                                    style={{
+                                        cursor: 'pointer'
+                                    }}
+                                >
                                     Contact
-                                </a>
+                                </ScrollLink>
                             </li>
                         </ul>
                     </div>

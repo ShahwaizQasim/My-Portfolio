@@ -438,6 +438,7 @@ h1 {
 .hdg6 {
   font-family: "poppins";
   color: #d7d4d1 !important;
+  text-decoration: none;
   margin-top: 10px !important;
   transition: 0.4s;
 }
@@ -447,7 +448,7 @@ h1 {
 }
 .btn4 {
   height: 40px;
-  width: 160px;
+  width: 180px;
   background-color: #311e25;
   border: 1px solid #ce9160;
   color: #fff;

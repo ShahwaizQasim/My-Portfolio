@@ -1,14 +1,20 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router'
 import '../index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router';
+import { Link as ScrollLink } from 'react-scroll'; // Import react-scroll
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+
     const handleToggle = () => {
         setIsOpen(!isOpen)
     }
+
+    const handleLinkClick = () => {
+        setIsOpen(false); // Close the navbar when a link is clicked
+    };
 
     return (
         <div className="container-fluid c-f pt-2 pb-2">
@@ -33,19 +39,74 @@ function Navbar() {
                         <div className={`sidebar-content`}>
                             <ul>
                                 <li>
-                                    <Link to="index.html">Home</Link>
+                                    <ScrollLink
+                                        to="hero" // ID of the section
+                                        smooth={true}
+                                        duration={500}
+                                        onClick={handleLinkClick} // Close navbar
+                                        style={{
+                                            cursor: 'pointer',
+                                            color: '#ce9160'
+                                        }}
+                                    >
+                                        Home
+                                    </ScrollLink>
                                 </li>
                                 <li>
-                                    <Link to="About.html">About</Link>
+                                    <ScrollLink
+                                        to="about" // ID of the section
+                                        smooth={true}
+                                        duration={1000}
+                                        onClick={handleLinkClick} // Close navbar
+                                        style={{
+                                            cursor: 'pointer',
+                                            color: '#ce9160'
+                                        }}
+                                    >
+                                        About
+                                    </ScrollLink>
                                 </li>
                                 <li>
-                                    <Link to="Service.html">Services</Link>
+                                    <ScrollLink
+                                        to="service" // ID of the section
+                                        smooth={true}
+                                        duration={1000}
+                                        onClick={handleLinkClick} // Close navbar
+                                        style={{
+                                            cursor: 'pointer',
+                                            color: '#ce9160'
+                                        }}
+                                    >
+                                        Services
+                                    </ScrollLink>
                                 </li>
                                 <li>
-                                    <Link to="project.html">Projects</Link>
+                                    <ScrollLink
+                                        to="project" // ID of the section
+                                        smooth={true}
+                                        duration={1000}
+                                        onClick={handleLinkClick} // Close navbar
+                                        style={{
+                                            cursor: 'pointer',
+                                            color: '#ce9160'
+                                        }}
+                                    >
+                                        Projects
+                                    </ScrollLink>
                                 </li>
                                 <li>
-                                    <Link to="contact.html">Contact</Link>
+                                    <ScrollLink
+                                        to="contact" // ID of the section
+                                        smooth={true}
+                                        duration={1000}
+                                        onClick={handleLinkClick} // Close navbar
+                                        style={{
+                                            cursor: 'pointer',
+                                            color: '#ce9160'
+                                        }}
+                                    >
+                                        Contact
+                                    </ScrollLink>
                                 </li>
                             </ul>
                         </div>
