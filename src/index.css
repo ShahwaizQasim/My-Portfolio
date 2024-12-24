@@ -161,10 +161,10 @@
   transition: 0.8s;
 }
 .btn1:hover {
-  cursor: pointer;
+  cursor: pointer !important;
 }
 .btn1:active {
-  transform: scale(0.7);
+  transform: scale(0.7) !important;
 }
 .dis {
   height: 400px;
@@ -428,6 +428,7 @@ h1 {
   font-family: "poppins";
   outline: none;
   border: 1px solid #ce9160;
+  font-weight: 400 !important;
 }
 
 .ic1 {
